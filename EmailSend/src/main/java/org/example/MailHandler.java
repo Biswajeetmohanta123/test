@@ -7,7 +7,7 @@ import java.util.Properties;
 
 public class MailHandler {
 
-    void sendMail()
+     public static void sendMail()
     {
         Properties sysProperties = System.getProperties(); //this gives me a hash-map/ hash-table
 
@@ -30,7 +30,7 @@ public class MailHandler {
         try {
             mailMessage.setFrom(MailMetaData.myUserMail);
             mailMessage.setSubject("This is my testing code for mail sending");
-            mailMessage.setText("Hy my name is Biswajit and How are you");
+            mailMessage.setText(Sub.getSub());
 
             //set the receiver
 

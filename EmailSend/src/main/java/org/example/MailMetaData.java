@@ -8,7 +8,7 @@ public class MailMetaData {
 
     public static final String myUserMail = "biswajeetmohanta123@gmail.com";
 
-    public static final String password = "uxgblaqoncullxjt";// app password
+    public static final String password = "uqejwoadhhkoitur";// app password
 
     public static final String receiverMail = "rb486373@gmail.com";
 
